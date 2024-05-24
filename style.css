@@ -1,0 +1,67 @@
+
+*{
+ padding:0px;
+ margin:0px;
+}
+#page{
+    background-color: hsl(240, 78%, 98%);
+}
+#title{
+    color:hsl(236, 72%, 79%);
+    font-size:1.4rem;
+    font-weight: bold;
+}
+#slider{
+    background-color: hsl(236, 72%, 79%);
+    width:45px;
+    color:white;
+
+}
+#Choice,#Rate{
+    color:hsl(234, 14%, 74%);
+    font-size:16px;
+    margin-left:12px
+
+}
+#slider{
+    justify-content: end;
+ display: flex;
+  align-items: center;
+}
+
+hr{
+   
+    border: 1px solid hsl(233, 13%, 49%);
+}
+#button1-learnMore,#button3-learnMore{
+    background-color: hsl(237, 63%, 64%);
+    transition: all 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+#button1-learnMore:hover,#button3-learnMore:hover{
+    background-color: white;
+    color:  hsl(237, 63%, 64%);
+    border:2px solid hsl(237, 63%, 64%) ;
+}
+#button2-learnMore{
+   color: hsl(237, 63%, 64%);
+   transition: all 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+#button2-learnMore:hover{
+    color:white;
+    background-color: hsl(237, 63%, 64%);
+   border: 1px solid gray;
+}
+
+#card2{
+    background-color: hsl(237, 63%, 64%);
+    color:white;
+    transform: scale(1.1);
+}
+.sliding{
+ justify-content: start !important;
+ background-color: #fff !important;
+}
+.slides{
+    background-color:hsl(237, 63%, 64%) !important;
+}
